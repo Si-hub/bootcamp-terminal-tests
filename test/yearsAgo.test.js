@@ -7,4 +7,8 @@ describe("The yearsAgo function " , function(){
         assert.equal(yearsAgo(1989), 31);
     });
 
+    it ("should calculate how many years that you have currently", function() {
+        assert.equal(yearsAgo(1990), 30);
+    });
+
     });
